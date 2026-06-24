@@ -61,6 +61,9 @@
 	object-position: center;
 }
 
+.secondCard {
+	transform: 100% center !important;
+}
 
 .thirdImage {
 	object-position: 48% center !important;

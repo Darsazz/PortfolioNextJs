@@ -19,6 +19,7 @@ const PortfolioCard = ({id, title, description, image }) => {
 					quality={100}
 					className={`
 						${style['card__image']}
+						${id === '02' ? style.secondCard : ''}
 						${id === '03' ? style.thirdImage : ''}
 						${id === '04' ? style.fourthImage : ''}
 					`}

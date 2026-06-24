@@ -40,7 +40,7 @@
 }
 
 .secondImage {
-	object-position: 14% center;
+	object-position: 12% center !important;
 }
 
 .thirdImage {
