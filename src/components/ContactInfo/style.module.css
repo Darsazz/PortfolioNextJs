@@ -1,0 +1,31 @@
+.contact-page__info {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	color: var(--muted);
+}
+
+.contact-page__info-list {
+	list-style: none;
+	display: grid;
+	gap: 12px;
+	padding: 0;
+	margin: 0;
+}
+
+.contact-page__info-item {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	padding: 16px;
+	border-radius: 16px;
+	background: rgba(255, 255, 255, 0.03);
+	border: 1px solid rgba(255, 255, 255, 0.06);
+	backdrop-filter: blur(10px);
+}
+
+.contact-page__info-item strong {
+	color: var(--text);
+	font-weight: 600;
+}
+
