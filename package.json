@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start"
-  },
+	"dev": "next dev",
+	"build": "next build",
+	"start": "next start"
+},
   "dependencies": {
     "next": "15.5.3",
     "nodemailer": "^8.0.11",
