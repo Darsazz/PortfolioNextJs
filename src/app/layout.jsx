@@ -11,16 +11,22 @@ const inter = Inter({
 	display: 'swap',
 	variable: '--font-inter',
 });
-
 export const metadata = {
-	title: 'Next.js Portfolio',
-	description: 'Dark, modern Next.js demo project',
+	title: {
+		default: 'Frontend Developer Portfolio',
+		template: '%s | Portfolio',
+	},
+	description:
+		'Portfolio of a frontend developer. Projects built with React and Next.js.',
 	openGraph: {
-		siteName: 'Tutorial',
-		description: 'Some text...',
+		title: 'Frontend Developer Portfolio',
+		description:
+			'Modern web projects built with React and Next.js.',
+		siteName: 'Frontend Portfolio',
+		locale: 'ru_RU',
+		type: 'website',
 	},
 };
-
 export default function RootLayout({ children }) {
 	return (
 		<html lang="ru" className={inter.variable}>

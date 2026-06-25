@@ -2,11 +2,10 @@ import ButtonMainPage from "../components/ButtonMainPage";
 
 
 export const metadata = {
-	title: 'Next JS tutorial',
-	description: 'Learning Next JS',
-	keywords: 'business, next js, react',
+	title: 'Frontend Developer Portfolio',
+	description: 'Personal portfolio built with Next.js showcasing frontend projects',
+	keywords: ['next.js', 'react', 'frontend developer', 'portfolio'],
 };
-
 export default function Home() {
 	return (
 		<section className="content">
