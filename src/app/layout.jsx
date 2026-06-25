@@ -25,6 +25,14 @@ export const metadata = {
 		siteName: 'Frontend Portfolio',
 		locale: 'ru_RU',
 		type: 'website',
+		images: [
+			{
+				url: '/img/cards/preview.png',
+				width: 1200,
+				height: 630,
+				alt: 'Frontend Developer Portfolio',
+			},
+		],
 	},
 };
 export default function RootLayout({ children }) {
