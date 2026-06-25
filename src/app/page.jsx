@@ -2,8 +2,9 @@ import ButtonMainPage from "../components/ButtonMainPage";
 
 
 export const metadata = {
-	title: 'Frontend Developer Portfolio',
-	description: 'Personal portfolio built with Next.js showcasing frontend projects',
+	title: 'Home',
+	description:
+		'Personal portfolio built with Next.js showcasing frontend projects',
 	keywords: ['next.js', 'react', 'frontend developer', 'portfolio'],
 };
 export default function Home() {
